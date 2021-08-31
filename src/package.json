@@ -1,0 +1,26 @@
+{
+  "name": "signalfire-base-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css:dev": "npx postcss ./css/style.css --output ../dist/css/style.css --env development",
+    "css:prod": "npx postcss ./css/style.css --output ../dist/css/style.css --env production",
+    "css:watch": "npx postcss ./css/style.css --output ../dist/css/style.css --env production --watch",
+    "js:site": "npx parcel build ./js/site.js --out-dir ../dist/js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.3",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.8"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.3"
+  }
+}

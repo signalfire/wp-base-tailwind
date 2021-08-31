@@ -1,0 +1,1 @@
+# Wordpress Tailwind Base THeme
